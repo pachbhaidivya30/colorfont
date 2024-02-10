@@ -1,0 +1,30 @@
+{
+  "name": "colorfont",
+  "version": "1.0.0",
+  "description": "A library to colorfy in console",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pachbhaidivya30/colorfont.git"
+  },
+  "keywords": [
+    "console log colors",
+    "colorify logs"
+  ],
+  "author": "Divya P",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pachbhaidivya30/colorfont/issues"
+  },
+  "homepage": "https://github.com/pachbhaidivya30/colorfont#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "files": ["lib/**/*"]
+}
